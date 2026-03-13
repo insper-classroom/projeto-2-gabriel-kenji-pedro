@@ -58,8 +58,6 @@ def test_get_imoveis(client):
         (2, "Price Prairie", "Travessa", "Colonton", "North Garyville", "93354", "casa em condominio", 260069.89, "2021-11-30"),
         (3, "Taylor Ranch", "Avenida", "West Jennashire", "Katherinefurt", "51116", "apartamento", 815969.92, "2020-04-24")
     ]
-    
-    #mock_connect_db.return_value = mock_conn
 
     response = client.get("/imoveis")
 
