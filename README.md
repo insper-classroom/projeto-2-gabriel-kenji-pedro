@@ -6,10 +6,10 @@ projeto-2-gabriel-kenji-pedro created by GitHub Classroom
 ## Endpoints:
 
 * GET /imoveis
-* GET /imoveis/<id>
+* GET /imoveis/(id)
 * POST /imoveis
-* PUT /imoveis/<id>
-* DELETE /imoveis/<id>
+* PUT /imoveis/(id)
+* DELETE /imoveis/(id)
 
 ## Filtros:
 
