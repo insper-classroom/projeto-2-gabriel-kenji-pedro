@@ -1,17 +1,17 @@
 # projeto-2-gabriel-kenji-pedro
 projeto-2-gabriel-kenji-pedro created by GitHub Classroom
 
-API de imóveis
+# API de imóveis
 
-Endpoints:
+## Endpoints:
 
-GET /imoveis
-GET /imoveis/<id>
-POST /imoveis
-PUT /imoveis/<id>
-DELETE /imoveis/<id>
+* GET /imoveis
+* GET /imoveis/<id>
+* POST /imoveis
+* PUT /imoveis/<id>
+* DELETE /imoveis/<id>
 
-Filtros:
+## Filtros:
 
-/imoveis?cidade=...
-/imoveis?tipo=...
+* /imoveis?cidade=...
+* /imoveis?tipo=...
