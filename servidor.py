@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, jsonify
+from flask import Flask, render_template_string, request, redirect, jsonify
 import json
 import utils
 
@@ -9,8 +9,10 @@ test_client = servidor.test_client
 
 @servidor.route('/')
 def pagina_imoveis():
-    imoveis = utils.get_imoveis()
-    return render_template("index.html", imoveis=imoveis)
+    return render_template_string('''
+        <p>Servidor rodando...</p>
+        <p>Acesse /imoveis para acessar a API.</p>
+    ''')
 
 @servidor.route('/imoveis', methods=["GET"])
 def get_imoveis():

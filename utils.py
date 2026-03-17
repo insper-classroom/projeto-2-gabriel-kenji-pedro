@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 import mysql.connector
 
-load_dotenv()
+load_dotenv('.cred')
 
 def connect_db():
     return mysql.connector.connect(
